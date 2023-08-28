@@ -16,6 +16,10 @@ Shadow VMT hooking, on the other hand, creates a copy of the original VMT, and t
 - Supports both x86 and x64
 
 
+## Example usage
+Check out [this](#example.cpp)
+
+
 <hr />
 
 ### Note:
