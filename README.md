@@ -17,7 +17,7 @@ Shadow VMT hooking, on the other hand, creates a copy of the original VMT, and t
 
 
 ## Example usage
-Check out [this](#example.cpp)
+Check out [this](#[example.cpp](https://github.com/ntos322/SilentVMT/blob/main/example.cpp))
 
 
 <hr />
