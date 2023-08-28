@@ -40,9 +40,9 @@ public:
 
     /* deconstructor for the silent_vmt class. */
     ~silent_vmt() {
-      m_originalFunctions.clear();
-      delete[] m_copiedTable;
-      delete[] m_originalTable;
+        m_originalFunctions.clear();
+        delete[] m_copiedTable;
+        delete[] m_originalTable;
     }
 
     /*
