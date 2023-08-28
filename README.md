@@ -8,4 +8,4 @@
 
 
 ### Contact me:
-![discord](discord.gg/)
+!discord: ntxor
