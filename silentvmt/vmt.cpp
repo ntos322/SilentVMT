@@ -12,7 +12,7 @@ silent_vmt::silent_vmt(std::uintptr_t* ptr, size_t sz) {
 		sz = get_count();
 
 	/* alloc a new "copy" of the vtable, this is where the "shadowing" starts (+ 1 because we need somewhere to store the ptr to the orig vmt) */
-    m_copiedTable = new std::uintptr_t[sz + 1];
+        m_copiedTable = new std::uintptr_t[sz + 1];
 
 	/* copy the original vmt into the new vtable */
 	std::memcpy(&m_copiedTable[1], m_originalTable, sz * sizeof(std::uintptr_t));
