@@ -42,7 +42,6 @@ public:
     ~silent_vmt() {
         m_originalFunctions.clear();
         delete[] m_copiedTable;
-        delete[] m_originalTable;
     }
 
     /*
