@@ -13,11 +13,11 @@ private:
 
 	struct {
 
-		/* a map to store the original functions
+	/* a map to store the original functions
          * key: the index of the function in the vmt
          * value: addr of the orig function
         */
-		std::unordered_map<int, std::uintptr_t>m_originalFunctions;
+	std::unordered_map<int, std::uintptr_t>m_originalFunctions;
 
         /* a ptr to the original virtual method table (vmt) instance */
         std::uintptr_t* m_originalTable;
@@ -29,13 +29,13 @@ private:
 
 public:
 
-	/**
+    /**
      * constructor for the silent_vmt class.
      *
      * @param ptr: a ptr to the instance of the class whose vmt is to be hooked.
      * this is used to create and set up the shadow vmt for the specified instance ptr
     */
-	silent_vmt(std::uintptr_t* ptr, size_t sz = 0);
+    silent_vmt(std::uintptr_t* ptr, size_t sz = 0);
 
     /**
      * get the number of functions in the virtual table.
