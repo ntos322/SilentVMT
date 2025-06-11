@@ -22,5 +22,3 @@ Check out [example.cpp](https://github.com/ntos322/SilentVMT/blob/main/example.c
 
 <hr />
 
-### Contact me:
-discord: 0x7da
